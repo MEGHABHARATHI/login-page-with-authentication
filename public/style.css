@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+}
+
+.container, .home-container {
+  max-width: 350px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 2.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+h2, h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #313158;
+}
+
+form label {
+  display: block;
+  margin: 12px 0 5px 0;
+  color: #555;
+}
+
+form input[type="email"], 
+form input[type="password"], 
+form input[type="text"] {
+  width: 100%;
+  padding: 0.75em;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 0.75em;
+  background-color: #4757e4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #313158;
+}
+
+form p {
+  text-align: center;
+}
+
+form a {
+  color: #4757e4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav {
+  background: #313158;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background .2s;
+}
+
+nav ul li .active,
+nav ul li a:hover {
+  background: #4757e4;
+}
